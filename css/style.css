@@ -103,3 +103,136 @@ ul a {
     border-radius: 10px;
 
 }
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    margin-top: 84px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.features-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.features-txt {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.features-txt h2 {
+    max-width: 460px;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.one {
+    font-weight: 400;
+    color: rgba(19, 19, 19, 1);
+}
+
+.two {
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+}
+
+.three {
+    font-weight: bold;
+    color: rgba(255, 144, 14, 1);
+}
+
+.features-txt p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+    margin-bottom: 30px;
+}
+
+.features2 {
+    display: flex;
+    max-width: 1440px;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.features2-txt h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+    padding-left: 20px;
+    margin-left: 5px;
+    border-left: rgba(255, 144, 14, 1) 5px solid;
+    margin-bottom: 23px;
+}
+
+.features2-txt p {
+    color: rgba(114, 114, 114, 1);
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.features2-txt .pera {
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+
+}
+
+.features2-img img {
+    width: 700px;
+    height: 950px;
+}
+
+.experience {
+    position: relative;
+    top: -90px;
+    /* pull it down */
+    right: -135px;
+    transform: translateX(-50%);
+
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 40px 38px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.experience .one1 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 70px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.experience .one2 {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
